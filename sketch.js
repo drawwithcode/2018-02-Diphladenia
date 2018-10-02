@@ -17,7 +17,7 @@ function draw() {
   //rotate(frameCount*3);
 
 
-  stroke(lerpColor(color('#58a3b3'),color('#eeecbb'), frameCount/120));
+  stroke(lerpColor(color('#F6CEF5'),color('#29088A'), frameCount/120));
   line(100,0,(cos(frameCount*3)*100),(sin(frameCount*3)*100));
 // Stops the draw function if a certain condition avaluates true
  if (frameCount == 120) {
